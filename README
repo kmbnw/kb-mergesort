@@ -1,0 +1,20 @@
+An attempt to replicate *NIX sort in Scala.  Done mostly as a learning exercise, 
+but hopefully useful.  
+
+Please note that this is still under development.  Some tests exist, but they 
+have been based on random collections of dictionary words.  Currently, only 
+the following options are supported:
+
+--field-separator  The file field separator.  Default: , (comma)
+--key A comma separated list of key columns, starting at 1.  Default: 1 (sort on first column)
+--sort-size The maximum number of records to sort in-memory at once.  Default: 10000
+--merge-size The maximum number of files to merge at once.  Default: 32
+--reverse Reverse the sort order.
+
+All options require an '=' sign after them, and short options are currently not 
+supported.
+
+If you did not receive these files from github.com/kmbnw/kb-mergesort, you 
+may have an old, corrupted, or malicious version of the software.
+
+If you have any questions please contact Krysta Bouzek (nwkrystab on google).

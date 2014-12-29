@@ -1,0 +1,3 @@
+To install, run 'ant clean install'.  Installs to $HOME/bin/kb-mergesort by default.  You can move this directory anywhere you like after install.
+
+To see the options, just run $HOME/bin/kb-mergesort/mergesort.sh.
